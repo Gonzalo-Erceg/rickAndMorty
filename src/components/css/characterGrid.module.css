@@ -1,0 +1,14 @@
+.characterList{
+    text-align: center;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap:20px;
+    justify-content: center;
+}
+.error {
+    margin-top:30px;
+    color:#fff;
+    text-align: center;
+    
+}

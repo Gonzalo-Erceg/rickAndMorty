@@ -1,0 +1,121 @@
+.banner{
+    max-width: 1600px;
+    
+    height: 600px;
+    overflow: hidden;
+    margin: auto;
+    
+}
+.imagen{
+    width: 100%;
+    
+    
+    
+}
+
+
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+   margin-top: 30px;
+   background: #ffffff3a;
+   backdrop-filter: blur(1px);
+    justify-content: center;
+    padding:50px;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0);
+}
+.formulario input{
+    outline:none;
+    border:none
+}
+
+
+.formulario label{
+    color:#fff;
+    margin: 20px;
+    
+}
+.formulario input{
+    display: inline-block;
+	
+	
+  	padding: 7px 10px;
+  	
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #000;
+	font-size: 1em;
+	color: #000;
+	
+	border:1px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+.formulario input:focus{
+    outline:2px solid #77dd77;
+    background-color: #ffff
+}
+
+.formulario div select{
+    display: inline-block;
+	
+	cursor: pointer;
+  	padding: 7px 10px;
+  	
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #000;
+	font-size: 1em;
+	color: #000;
+	
+	border:1px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+.formulario div select:focus{
+    outline:2px solid #77dd77;
+    background-color: #ffff
+}
+
+.formulario div button{
+    cursor: pointer;
+  	padding: 7px 10px;
+  	
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #000;
+	font-size: 1em;
+	color: #000;
+	
+	border:1px solid rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: relative;
+    transition: all .25s ease;
+}
+.formulario div button:active{
+    transform: scale(.7);
+}
+.formulario div button:hover{
+    background-color: #9afa9a;
+}
+
+@media (max-width:900px){
+    .banner{
+        
+        height: auto;
+    }
+    .imagen{
+        width: 150%;
+        
+    }
+}

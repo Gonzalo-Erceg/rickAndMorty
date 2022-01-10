@@ -1,0 +1,30 @@
+.container{
+    color:#fff;
+    margin: 100px auto;
+    
+    padding: 50px;
+    width: fit-content;
+    
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+    text-align: center;
+}
+.error h1{
+    color:#fff
+}
+.container ul li:hover{
+    color:#d0d0d0
+}
+
+@media (max-width:480px){
+    .container{
+        width: 100%;
+        min-width: 359px;
+       
+    }
+    .container img{
+        width: 100%;
+        height: auto;
+
+    }
+}
