@@ -10,6 +10,7 @@
     overflow: hidden;
 }
 .imgcontainer img{
+    width: 100%;
     transition: 1s;
 }
 .card:hover > .imgcontainer img{
@@ -25,3 +26,10 @@
 }
 
 
+@media (max-width:900px){
+    .card a{
+        
+        font-size: 14px;
+        font-weight: bolder;
+    }
+}
